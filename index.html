@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="권우리의 프로필" />
+        <meta property="og:description" content="CX manager의 데이터분석 공부기" />
+        <meta property="og:image" content="DAimage.png" />
+        <title>권우리 - 프로필 링크</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body {
+                background-color : #3d805e;
+            }
+            .profile {
+                width : 150px;
+                height : 150px;
+            
+                border-radius: 100%;
+
+                border : 2px solid white;
+                background-image: url('DAimage.png');
+                background-position: center;
+                background-size : cover;
+            }
+            .main {
+                color : whitesmoke;
+                font-size: 30px;
+
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub {
+                color : white;
+                font: 15px;
+
+                margin-top : 10px;
+                margin-bottom: 0px;
+            
+            }
+            .sub2 {
+                color : white;
+                font: 15px;
+
+                margin-top : 10px;
+                margin-bottom: 20px;
+            }
+            .wrap {
+                width :400px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a {
+                width : 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 15px;
+                font-weight: bold;
+                color: #3d805e;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap > a:hover {
+                background-color :#f2f2f2;
+                font-size: 17px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">권우리</h1>
+            <p class="sub">CX manager의 데이터분석 도전기</p>
+            <p class="sub2">데이터를 가지고 고객과 '우리'되기 위해 노력합니다! </p>    
+            <a target="_blank" href="https://wooliary.tistory.com/"">티스토리</a>
+            <a target="_blank" href="https://github.com/WOORI-KWON">Github</a>
+            <a target="_blank" href="https://woooori.notion.site/d72a4ec469ef46dcb03cf784efc33d1e">이력서</a>
+            <a target="_blank" href="https://woooori.notion.site/48a33abeb03b438082cdfa61fd3a0de1?v=cecd3b45f7364034a50ce38d2f84f828">기획 포트폴리오</a>
+    
+        </div>        
+    </body>
+</html>
